@@ -1,0 +1,13 @@
+                                        Transportation (abstract)
+                                      /             |             \
+                                     /              |              \
+                                    /               |               \
+                                   /                |                \
+                                  /                 |                 \
+
+              AirTransport                    LandTransport                   WaterTransport
+               /    |    \                 /   |    |    |      \                   /    \      
+              /     |     \               /    |    |    |       \                 /      \
+             /      |      \             /     |    |    |        \               /        \
+
+ Helicopter   Airplane  SpaceShuttle Truck SUV Tricycle Motorcycle Kariton     Boat         Ship
