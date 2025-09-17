@@ -1,0 +1,26 @@
+                  User (abstract)
+                   /        \
+                  /          \
+          Official            Resident
+           |                      |
+   +----------------+       +-----------------+
+   | - makeAnnouncement()   | - register()    |
+   | - updateComplaint()    | - submitComplaint() 
+   |                        | - reactToAnnouncement()
+   |                        |
+   +----------------+       +-----------------+
+
+Other Classes:
+-------------------------------------------
+Complaint
+ - complaintId
+ - description
+ - status
+ - submittedBy (Resident)
+ - updateStatus()
+
+Announcement
+ - announcementId
+ - content
+ - createdBy (Official)
+ - displayAnnouncement()
