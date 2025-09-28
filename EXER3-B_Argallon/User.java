@@ -1,8 +1,8 @@
 
-abstract class User {
-    protected String name;
-    protected String username;
-    protected String password;
+public class User {
+    private String name;
+    private String username;
+    private String password;
 
     public User(String name, String username, String password) {
         this.name = name;
@@ -16,5 +16,6 @@ abstract class User {
     }
 
     // Abstract method 
-    public abstract void showHome();
+    public void showHome();
 }
+
