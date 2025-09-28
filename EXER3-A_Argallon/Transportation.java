@@ -1,8 +1,8 @@
 
-public abstract class Transportation {
-protected String name;
-protected int capacity; // how many passengers
-protected double maxSpeed; // km/h
+public  class Transportation {
+private String name;
+private int capacity; // how many passengers
+private double maxSpeed; // km/h
 
 
 public Transportation(String name, int capacity, double maxSpeed) {
@@ -32,3 +32,4 @@ System.out.println("Max Speed: " + maxSpeed + " km/h");
 }
 
 }
+
