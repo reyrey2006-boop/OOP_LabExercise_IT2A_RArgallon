@@ -1,4 +1,4 @@
-// File: Transportation.java
+
 public abstract class Transportation {
 protected String name;
 protected int capacity; // how many passengers
@@ -30,4 +30,5 @@ System.out.println("Name: " + name);
 System.out.println("Capacity: " + capacity);
 System.out.println("Max Speed: " + maxSpeed + " km/h");
 }
+
 }
